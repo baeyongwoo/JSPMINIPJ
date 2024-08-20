@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(221, 246, 223);
+    font-family: "Hi Melody", sans-serif;
+    font-size: xx-large;
+    text-align: left; /* 모든 텍스트를 왼쪽으로 정렬 */
+    background-image: -o-linear-gradient(img);
+}
+
+.navbar-expand-sm {
+    box-shadow: 0px 20px 20px gray, 0px 40px 90px rgb(207, 246, 148);
+    background-color: rgb(45,45,45);
+}
+.navbar-expand-sm a {
+    color:#e0ffdf;
+}
+.navbar-expand-sm a:hover {
+    color:#33c92c;
+}
+
+.navbar-brand img {
+    height: 100%;
+    max-height: 100px;
+    border-radius: 0% 40%;
+}
+
+.container-fluid {
+    display: flex;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    text-align: left; /* 네비게이션 텍스트를 왼쪽으로 정렬 */
+}
+
+.content {
+    display: flex;
+}
+
+.content, .sidebar {
+    padding-left: 10px;
+}
+
+.card {
+    margin-bottom: 20px;
+    border-radius: 5%;
+}
+
+.navbar {
+    width: 100%;
+    margin-bottom: 60px;
+    border-radius: 0% 0% 20% 30%;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+}
+
+.d-flex {
+    float: right;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 70px;
+}
+
+.sid1, .sid2, .search-form {
+    margin: 50px;
+    border: 5px solid rgb(13, 91, 13);
+    border-radius: 10%;
+    padding: 20px;
+    background-color: rgba(207, 246, 148, 0.612);
+}
+
+.col-sm-6 {
+    padding: 50px;
+    text-align: left;
+}
+
+.manu {
+    border: 5px solid rgb(124, 168, 118);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 0% 10%;
+    background-color: rgba(233, 255, 168, 0.682);
+    padding: 40px;
+    width: 100%;
+    text-align: center; /* 메뉴 텍스트를 왼쪽으로 정렬 */
+}
+
+.table-success, table, .id, .pwd, .a {
+    border-radius: 0% 40%;
+}
+
+.a, td {
+    background-color: green;
+}
+
+input {
+    width:80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button {
+    border: 5px solid rgb(13, 91, 13);
+    background-color: rgba(201, 229, 155, 0.815);
+    color: black;
+    border-radius: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer {
+    width: 100%;
+}
+
+
+.paging, table, td, tr {
+    border: 5px solid rgb(13, 91, 13);
+    border-radius: 10px;
+    border-collapse: collapse;
+    background-color: rgba(207, 246, 148, 0.612);
+    padding: 20px;
+    text-align: left; /* 테이블 내 텍스트를 왼쪽으로 정렬 */
+}
+
+.paging {
+    margin: 30px;
+    margin-top: -20px;
+    
+}
+
+h2, h1, h3 {
+    color: rgb(0, 0, 0);    
+    text-align: left; /* 헤딩 텍스트를 왼쪽으로 정렬 */
+    margin:20px;
+}
+
+.manu > img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio:1/0.7;
+    object-fit: cover;
+}
+option{
+    font-size: x-large;
+}
+.form-label{
+    width:100%;
+    display: block;
+}
+
+#uploadImgDiv img{
+	width:100%;
+	max-height:800px;
+	object-fit:cover;
+}
+#uploadImgDiv img:hover{
+	object-fit:fill;
+	width:100%;
+	height:100%;
+	max-height:none;
+}
+
+
+textarea{
+	width:90%;
+	margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#selectFlower{
+	font-size:1.5rem;
+	padding-top:1rem;
+	padding-bottom:0.625rem;
+	width:80%;
+	margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#selectWorld{
+	font-size:1.5rem;
+	padding-top:1rem;
+	padding-bottom:0.625rem;
+	width:80%;
+	margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#bird {
+    position: relative ;
+    display: inline ;
+    left: 0px !important;
+    top: 0px !important;
+    width: 50px ;
+    height:auto;
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(13, 91, 13));
+}
