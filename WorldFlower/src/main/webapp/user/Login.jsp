@@ -37,7 +37,7 @@
    				e.preventDefault();
    				operForm.attr("method", "post");
    				if($("#userId").val()==""){
-			            alert("아이디를 입력하세요");
+			            alert("아이디를 입력하세요!!!");
 			            $("#userId").focus();
 		
 			     } else if ($("#pwd").val()==""){
